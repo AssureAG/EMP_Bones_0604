@@ -16,7 +16,7 @@ class Employee:
         return f"Employee Name: {self.emp_id} {self.first_name} {self.last_name} {self.address} {self.designation} {self.years_of_exp} {self.salary}"
 
 def main():
-    # Assuming employee records are stored in a list of dictionaries
+    # employee records 
     employee_records = [
         {"Id": 1, "firstN": "Kiran", "lastN": "Girase", "Add": "Pune", "Desgn": "Manager", "yearsOfExp": 8, "salary": 90000},
         {"Id": 2, "firstN": "Ashitosh", "lastN": "Gilbile", "Add": "Mumbai", "Desgn": "Engineer", "yearsOfExp": (2.5), "salary": 36000},
@@ -24,11 +24,9 @@ def main():
         {"Id": 4, "firstN": "Rutuja", "lastN": "Tardekar", "Add": "mumbai", "Desgn": "HR", "yearsOfExp": (1.5), "salary": 22000},
         {"Id": 5, "firstN": "Sushant", "lastN": "jadhav", "Add": "Gujrat", "Desgn": "Site_Engineer", "yearsOfExp": (5.2), "salary": 38000},
         {"Id": 6, "firstN": "Ashish", "lastN": "jadhav", "Add": "kolhapur", "Desgn": "Fire_Engineer", "yearsOfExp": (2.5), "salary": 26000},
-        
-        # Add more employee records here if needed
     ]
 
-    # Prompt the user to enter bonus percentage and years of experience
+    # for user use to enter bonus percentage and years of experience
     bonus_percentage = float(input("Enter bonus percentage: "))
     years_of_exp = int(input("Enter years of experience: "))
 
