@@ -12,7 +12,7 @@ class Employee:
         bonus_amount = (bonus_percentage / 100) * self.salary
         return bonus_amount
 
-    def display_employee_info(self):
+    def display_employee_info(self)
         return f"Employee Name: {self.emp_id} {self.first_name} {self.last_name} {self.address} {self.designation} {self.years_of_exp} {self.salary}"
 
 def main():
